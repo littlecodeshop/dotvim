@@ -21,8 +21,7 @@ set encoding=utf-8
 set nobackup
 set dir=~/tmp,/var/tmp,/tmp
 
-"cd sur le folder 
-autocmd BufEnter * lcd %:p:h
+
 
 "status line 
 set laststatus=2
