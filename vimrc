@@ -1,5 +1,9 @@
 "Le vimrc de Richard
 
+"pathogen stuff
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 "all vim 
 set nocompatible
 set showmode
@@ -25,3 +29,4 @@ set laststatus=2
 set statusline=%f%m%r%h%w\ b%n\ %y\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [%p%%]\ [%l/%L]
 "pas de toolbar
 set guioptions-=T
+
