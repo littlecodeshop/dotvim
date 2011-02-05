@@ -19,13 +19,17 @@ set encoding=utf-8
 
 "je n'ai jamais utilisé le backup donc on oublie
 set nobackup
+set noswapfile
 set dir=~/tmp,/var/tmp,/tmp
 
+"mettre le lcd ou autochdir
 
 
 "status line 
 set laststatus=2
-set statusline=%f%m%r%h%w\ b%n\ %y\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [%p%%]\ [%l/%L]
+set statusline=
+set statusline+=%f%m%r%h%w\ b%n\ %y\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ %=[%p%%]\ [%l/%L]
+set statusline+=\ %{fugitive#statusline()}
 "pas de toolbar
 set guioptions-=T
 
