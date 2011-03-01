@@ -10,3 +10,6 @@
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = https://github.com/msanders/snipmate.vim.git
+[submodule "bundle/clang-complete"]
+	path = bundle/clang-complete
+	url = git://github.com/Rip-Rip/clang_complete.git

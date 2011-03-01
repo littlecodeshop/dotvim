@@ -22,6 +22,10 @@ set nobackup
 set noswapfile
 set dir=~/tmp,/var/tmp,/tmp
 
+
+"est ce que je met pas usr/include dans le path ??
+set path+=/usr/include/
+
 "mettre le lcd ou autochdir
 
 
