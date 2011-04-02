@@ -37,3 +37,4 @@ set statusline+=\ %{fugitive#statusline()}
 "pas de toolbar
 set guioptions-=T
 
+map <F2> :NERDTreeFind<CR><CR>
